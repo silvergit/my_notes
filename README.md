@@ -14,3 +14,7 @@
 - Info
     - Passwords
         - [Pishgaman](../master/Info/Passwords/pishgaman.md)
+
+- Tips
+    - Multi Media
+        - [Tag music files with Lame(support album cover)](../master/Tips/MultiMedia/tag_music_files_with_lame(support_album_cover).md)
