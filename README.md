@@ -13,7 +13,7 @@
 
 - Info
     - Passwords
-        - [Pishgaman](../master/Info/Passwords/pishgaman.md)
+        - [Passwords](../master/Info/Passwords/passwords.md)
 
 - Tips
     - Multi Media
