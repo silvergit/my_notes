@@ -12,8 +12,8 @@
         - [Bash Property Variables](../master/Programming/Learning/ShellScript/bash_property_variables.md)
 
 - Info
-    - Passwords
-        - [Passwords](../master/Info/Passwords/passwords.md)
+    - [Passwords](../master/Info/Passwords/passwords.md)
+    - [personal Informations](../master/Info/personalInfo.md)
 
 - Tips
     - Multi Media
