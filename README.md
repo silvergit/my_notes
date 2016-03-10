@@ -20,3 +20,4 @@
         - [Tag music files with Lame(support album cover)](../Tips/MultiMedia/tag_music_files_with_lame(support_album_cover).md)
     - Manuals
         - [Atom editor plugins](../Tips/Manuals/atom_editor_plugins.md)
+        - [Vim manual](../Tips/Manuals/vim.md)
