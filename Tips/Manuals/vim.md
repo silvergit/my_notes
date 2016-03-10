@@ -52,10 +52,11 @@
 ---
 ## Search
 
-| Key           | Result            | Sample            |
-|---------------|-------------------|-------------------|
-| `/` `word`    | Find next `word`  |                   |
-| `n` or `N`    | Repeat the search for next and previous occurrences | |
+| Key               | Result                | Sample            |
+|-------------------|-----------------------|-------------------|
+| `/` `word`        | Find next `word`      |                   |
+| `/` `word` `Ctrl` | Highlight all `word`s |                   |
+| `n` or `N`        | Repeat the search for next and previous occurrences | |
 
 ---
 # Selecting text (Visual mode)
