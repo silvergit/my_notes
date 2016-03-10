@@ -57,6 +57,7 @@
 | `/` `word`        | Find next `word`      |                   |
 | `/` `word` `Ctrl` | Highlight all `word`s |                   |
 | `n` or `N`        | Repeat the search for next and previous occurrences | |
+| `Ctrl` 'l'        | Remove Highlights     |                   |
 
 ---
 # Selecting text (Visual mode)
