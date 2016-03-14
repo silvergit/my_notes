@@ -57,7 +57,9 @@
 | `/` `word`        | Find next `word`      |                   |
 | `/` `word` `Ctrl` | Highlight all `word`s |                   |
 | `n` or `N`        | Repeat the search for next and previous occurrences | |
-| `Ctrl` 'l'        | Remove Highlights     |                   |
+| `Ctrl` 'l'        | Remove highlights     |                   |
+| `noh`             | Remove highlights     |                   |
+| `%s/old/new/g`    | Replace all `old` with `new` |            |
 
 ---
 # Selecting text (Visual mode)
@@ -81,3 +83,17 @@
 | `Ctrl` `R`    | Redo                          |
 | `.`           | Repeat the previous command   |
 | `:help`       | help                          |
+
+---
+# Multiple files
+
+| Key           | Result                        |
+|---------------|-------------------------------|
+| `:e` `file`   | Edit `file` in a new buffer   |
+| `:tabn` `file`| Edit `file` in a new tab      |
+| `:bn` Or `:pb`| Go to next or pre buffer      |
+| `:bd`         | Delete a buffer (Close a file)|
+| `:ls`         | List all open buffers         |
+| `:sp` `file`  | Open `file` in a new buffer and vertically split window |
+| `Ctrl` `ww`   | Switch windows                |
+| `Ctrl` `wq`   | Quit a window                 |
