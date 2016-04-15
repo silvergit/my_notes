@@ -22,3 +22,5 @@
         - [Atom editor plugins](../Tips/Manuals/atom_editor_plugins.md)
         - [Bash script](../Tips/Manuals/bash_script.md)
         - [Vim manual](../Tips/Manuals/vim.md)
+    - Terminals
+        - [Unicode for gnome terminal](../Tips/Terminals/unicode_for_gnome_terminal.md)
