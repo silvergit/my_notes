@@ -93,9 +93,11 @@ done
 for i in {1..10}: do
 ```
 
+With 5 steps
+
 ```bash
 for i in {1..100..5}; do
-```  with 5 stes
+```
 
 ```bash
 for i in ali reza amir "amir ali"; do
