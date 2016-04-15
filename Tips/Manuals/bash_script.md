@@ -43,6 +43,7 @@ if [ CONDITION ] &&/|| [CONDITION] ; then
 Defalt is `space`
 
 `IFS=':'`   -> Change to `:`        -> name=(ali:reza)
+
 `IFS=$'\n'` -> Change to `New line` -> for i in ls
 
 ---
@@ -72,10 +73,10 @@ done
 ```
 
 ---
-##For
+## For
 
 ```
-for `VARIABLE` in {`RANGE`}; do
+for \`VARIABLE` in {`RANGE`}; do
     something...
 done
 ```
@@ -86,12 +87,13 @@ for ((i=0;i<10;i++)); do
 done
 ```
 
-Samples
-`for i in {1..10}: do`
+### Samples
 
-`for i in {1..100..5}; do` with 5 stes
+```for i in {1..10}: do```
 
-```
+```for i in {1..100..5}; do```  with 5 stes
+
+```bash
 for i in ali reza amir "amir ali"; do
     echo "hello $i"
 done
