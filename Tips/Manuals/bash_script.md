@@ -12,7 +12,7 @@
 ---
 ## IF
 
-```
+```bash
 if [ CONDITION ]; then
     something...
 elif [ CONDITION ]; then
@@ -21,7 +21,7 @@ else
     something...
 ```
 
-```
+```bash
 if [ CONDITION ] &&/|| [CONDITION] ; then
     something...
 ```
@@ -49,7 +49,7 @@ Defalt is `space`
 ---
 ## Case
 
-```
+```bash
 case CONDITION in
     STATEMENT1)
         something...
@@ -66,7 +66,7 @@ esac
 ---
 ## While
 
-```
+```bash
 while [ CONDITION ]; do
     something...
 done
@@ -75,13 +75,13 @@ done
 ---
 ## For
 
-```
-for \`VARIABLE` in {`RANGE`}; do
+```bash
+for VARIABLE in {RANGE}; do
     something...
 done
 ```
 
-```
+```bash
 for ((i=0;i<10;i++)); do
     something
 done
@@ -89,9 +89,13 @@ done
 
 ### Samples
 
-```for i in {1..10}: do```
+```bash
+for i in {1..10}: do
+```
 
-```for i in {1..100..5}; do```  with 5 stes
+```bash
+for i in {1..100..5}; do
+```  with 5 stes
 
 ```bash
 for i in ali reza amir "amir ali"; do
@@ -99,14 +103,14 @@ for i in ali reza amir "amir ali"; do
 done
 ```
 
-```
+```bash
 name="ali reza amir"
 for i in $name; do
     echo "hello $i"
 done
 ```
 
-```
+```bash
 IFS=':'
 name="ali:reza:amir:mohammad reza"
 for i in $name; do
@@ -133,7 +137,7 @@ done
 
 Convert and resize all png files to jpg and move to a new folder like Pictures2
 
-```
+```bash
 IFS=$'\n'
 clear
 mkdir '$HOME/Pictures2'
