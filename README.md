@@ -10,7 +10,7 @@
 - Programming
     - Learning
         - [Bash Property Variables](../Programming/Learning/ShellScript/bash_property_variables.md)
-        - [Bash script](../Programming/Learning/bash_script.md)
+        - [Bash script](../Programming/Learning/ShellScript\bash_script.md)
 
 - Info
     - [Passwords](../Info/passwords.md)
