@@ -130,6 +130,19 @@ for i in $name; do
 done
 ```
 ---
+### Function
+#### Define
+`FUNCTION_NAME` () {
+    something...
+}
+#### Input arguments
+`$1` , `$2` , ...
+#### Output argument
+Use `\`` with function name
+##### Sample
+`s=\`sum_func 2 3\``
+
+---
 ### Date & Time
 
 | key | info |

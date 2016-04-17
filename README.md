@@ -10,6 +10,7 @@
 - Programming
     - Learning
         - [Bash Property Variables](../Programming/Learning/ShellScript/bash_property_variables.md)
+        - [Bash script](../Programming/Learning/bash_script.md)
 
 - Info
     - [Passwords](../Info/passwords.md)
@@ -20,7 +21,6 @@
         - [Tag music files with Lame(support album cover)](../Tips/MultiMedia/tag_music_files_with_lame(support_album_cover).md)
     - Manuals
         - [Atom editor plugins](../Tips/Manuals/atom_editor_plugins.md)
-        - [Bash script](../Tips/Manuals/bash_script.md)
         - [Vim manual](../Tips/Manuals/vim.md)
     - Terminals
         - [Unicode for gnome terminal](../Tips/Terminals/unicode_for_gnome_terminal.md)
