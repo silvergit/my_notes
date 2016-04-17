@@ -47,6 +47,16 @@ Defalt is `space`
 `IFS=$'\n'` -> Change to `New line` -> for i in ls
 
 ---
+## Bash arguments
+
+| key | info |
+|-----|------|
+| `$#` | Arguments count |
+| `$1` | First argument (2, 3, ...) |
+| `$@` | Arguments array list |
+| `$*` | Arguments list as a one argument |
+
+---
 ## Case
 
 ```bash
@@ -124,8 +134,8 @@ done
 
 | key | info |
 |-----|------|
-| System hour | ``date +%H`` |
-| System minute | ``date +%M`` |
+| System hour | `date +%H` |
+| System minute | `date +%M` |
 
 ---
 ### Exit status
