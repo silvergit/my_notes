@@ -22,5 +22,6 @@
     - Manuals
         - [Atom editor plugins](../Tips/Manuals/atom_editor_plugins.md)
         - [Vim manual](../Tips/Manuals/vim.md)
+        - [Use socks with AndroidSdkManager](../Tips/Manuals/use-socks-with-androidsdkmanager.md)
     - Terminals
         - [Unicode for gnome terminal](../Tips/Terminals/unicode_for_gnome_terminal.md)
