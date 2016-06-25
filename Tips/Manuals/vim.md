@@ -31,6 +31,7 @@
 |---------------|-------------------------------|-------------------|
 | `n`i`text`    | Insert `text` for `n` times   | `3iok` -> `okokok`|
 | `o` or `O`    | Insert a new line after or before this line |     |
+|  A		| Append text			|		    |
 
 ---
 ## Copy and Move text
@@ -48,6 +49,8 @@
 | `d` `e`       | Delete the first word |
 | `d` `n` `e`   | Delete the n words    |
 | `d` `d`       | Delete line           |
+|  d   w	| Delete word		|
+|  d   $	| Delete to the end of the line |
 
 ---
 ## Search
