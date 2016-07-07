@@ -158,6 +158,16 @@ Use `\`` with function name
 | Last command | `$?` ('0' or `any number` for error ) |
 
 ---
+### Strings
+
+#### Substring
+
+| key | info | sample |
+|-----|------|--------|
+| #     | Substring from start  | `"alireza"#a` --> `lireza` |
+| %     | Substring from end    | `"alireza"%a` --> `alirez` |
+
+---
 ## Sample scripts
 
 Convert and resize all png files to jpg and move to a new folder like Pictures2

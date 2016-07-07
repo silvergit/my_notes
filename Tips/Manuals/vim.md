@@ -57,12 +57,15 @@
 
 | Key               | Result                | Sample            |
 |-------------------|-----------------------|-------------------|
-| `/` `word`        | Find next `word`      |                   |
+| `/` `word`        | Find next word`       |                   |
+|  ?   word	    | Find previous word    | 			|
 | `/` `word` `Ctrl` | Highlight all `word`s |                   |
-| `n` or `N`        | Repeat the search for next and previous occurrences | |
+| `n` or `N` or /   | Repeat the search for next and previous occurrences | |
 | `Ctrl` 'l'        | Remove highlights     |                   |
 | `noh`             | Remove highlights     |                   |
-| `%s/old/new/g`    | Replace all `old` with `new` |            |
+| `%s/old/new`      | Replace `old` with `new`     |            |
+| `%s/old/new/g`    | Replace all `old` with `new`in current line ||
+| `%s/old/new/g`    | Replace all `old` with `new`in whole file with prompt ||
 
 ---
 # Selecting text (Visual mode)
@@ -76,16 +79,17 @@
 ---
 # Files
 
-| Key           | Result                        |
-|---------------|-------------------------------|
-| `:w`          | Save                          |
-| `:q`          | Quit                          |
-| `:q!`         | Quit without saving           |
-| `:u`          | Undo                          |
-| `:red`        | Redo                          |
-| `Ctrl` `R`    | Redo                          |
-| `.`           | Repeat the previous command   |
-| `:help`       | help                          |
+| Key           | Result                        	|
+|---------------|---------------------------------------|
+| `:w`          | Save                            	|
+|  :w FILENAME  | Save the whole file to FILENAME 	|
+| `:q`          | Quit                          	|
+| `:q!`         | Quit without saving           	|
+| `:u`          | Undo                          	|
+| `:red`        | Redo                          	|
+| `Ctrl` `R`    | Redo                          	|
+| `.`           | Repeat the previous command   	|
+| `:help`       | help                          	|
 
 ---
 # Multiple files
@@ -100,3 +104,5 @@
 | `:sp` `file`  | Open `file` in a new buffer and vertically split window |
 | `Ctrl` `ww`   | Switch windows                |
 | `Ctrl` `wq`   | Quit a window                 |
+
+---

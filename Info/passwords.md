@@ -12,3 +12,6 @@
 | 2020 - Modem  | 313779051910  | 23475         |                       |           | vpi, vci = 0, 35  |
 | Gitlab        | silvergitlab or myEmail | 11111111 |                  |           |       |
 | Github        | myEmail       | silver123ali  |                       |           |       |
+| mihanwebhost  | MyEmail       | 111111        | http://my.mihanwebhost.com    |   |       |
+| wordpress     | alirezap      | silver123alisilver123ali | http://www.apzh.ir/wp-admin || 
+| cpanel        | apzhir        | silver123ali  | http://www.apzh.ir:2082/  |||
