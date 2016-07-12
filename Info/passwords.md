@@ -15,3 +15,4 @@
 | mihanwebhost  | MyEmail       | 111111        | http://my.mihanwebhost.com    |   |       |
 | wordpress     | alirezap      | silver123alisilver123ali | http://www.apzh.ir/wp-admin || 
 | cpanel        | apzhir        | silver123ali  | http://www.apzh.ir:2082/  |||
+| Rahkar	| admin		| silver123ali	||||
