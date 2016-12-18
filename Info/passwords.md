@@ -18,3 +18,4 @@
 | Rahkar	| admin		| silver123ali	||||
 | Pasargad_Ebank| silver9111111006ali | silver2375ali | http://bpi.ir | | |
 | Pasargad_mobile| silver123 | 23752375 | | | |
+| Dahua Camera | admin | admin09131173368 ||||
